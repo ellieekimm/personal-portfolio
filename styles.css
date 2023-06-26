@@ -58,13 +58,14 @@ img{
 }
 #intro-descrip{
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-end: 6;
+    overflow: auto;
 }
 #button1{
     grid-column-start: 3;
-    grid-row-start: 5;
+    grid-row-start: 6;
     height: 75px;
     width: 200px;
     margin-left: 0;
@@ -85,8 +86,10 @@ img{
 #experience-items{
     display: grid;
     margin-left: 100px;
+    margin-right: 100px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
 }
 .ex-text{
     text-align: center;
@@ -100,11 +103,11 @@ img{
     width: 75px;
 }
 #html-pic{
-    height: 125px;
+    height: 97px;
     width: 125px;
 }
 #javascript-logo{
-    height: 100px;
+    height: px;
     width: 180px;
 }
 .button:hover{
